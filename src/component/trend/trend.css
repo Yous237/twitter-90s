@@ -1,0 +1,39 @@
+.trend{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.trend:hover {
+    background-color: var(--light-gray);
+}
+
+.topic {
+    color: var(--dark-gray);
+    /* VT323 Font/XXS */
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0rem;
+}
+
+.title {
+    color: var(--dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0rem;
+}
+
+.nbTweet {
+    color: var(--dark-gray);
+    /* VT323 Font/XXS */
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0rem;
+}
+
+
+
+
+

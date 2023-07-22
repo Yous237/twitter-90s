@@ -1,0 +1,27 @@
+.search-input {
+    
+    display: flex;
+}
+
+.search-input input{
+    flex: 2;
+
+}
+
+.search-input input[type="text"] {
+    /* Add your regular input styles here */
+    font-family: var(--font-family);
+    border-top: 2px solid black;
+    border-left:2px solid black ;
+  }
+  
+
+  .search-input input[type="text"]::placeholder {
+    color: var(--dark);
+
+    font-family: var(--font-family);
+    font-size: 16px;
+
+    font-weight: 400;
+
+  }

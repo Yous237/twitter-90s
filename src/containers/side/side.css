@@ -1,0 +1,7 @@
+.side{
+    border: 2px solid black;    
+}
+
+.links {
+    font-family: var(--font-family);
+}

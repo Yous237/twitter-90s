@@ -1,0 +1,106 @@
+.tweet-input {
+    display: flex;
+    padding: 0.5rem 1.5rem;
+}
+
+.tweet-input__right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-input__profile-picture {
+    padding-top: 0.5rem;
+}
+
+/* 
+.tweet-input__right-input input[type="text"] {
+
+    font-family: var(--font-family);
+    font-size: 20px;
+    width: 90%;
+    margin: 1rem 1rem;
+    background-color: var(--gray);
+    border: none;
+}
+  
+
+.tweet-input__right-input input[type="text"]::placeholder {
+    font-family: var(--font-family);
+    color: var(--dark-gray);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tweet-input__right-input input[type="text"]:focus {
+    font-family: var(--font-family);
+    color: var(--dark-gray);
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+} */
+
+.tweet-input__right-input textarea {
+    /* Add your regular textarea styles here */
+    font-family: var(--font-family);
+    font-size: 20px;
+    width: 90%;
+    margin: 1rem 1rem;
+    padding: 10px;
+    background-color: var(--gray);
+    border: none;
+    resize: none; /* Disable textarea resizing */
+    overflow: auto; /* Hide the scrollbar */
+ 
+    
+  }
+  
+  /* Styles for the placeholder */
+  .tweet-input__right-input textarea::placeholder {
+    /* Add your placeholder styles here */
+    font-family: var(--font-family);
+    color: var(--dark-gray);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .tweet-input__right-input textarea:focus {
+    /* Add your focus styles here */
+    font-family: var(--font-family);
+    color: var(--dark-gray);
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+  }
+
+.tweet-input__right-buttons {
+    display: flex;
+    border-top: 2px solid black;
+    justify-content: space-between;
+    padding-top: 1rem ;
+}
+  
+  .tweet-input__right-buttons-left {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.tweet-input__right-buttons-right {
+    padding-left: 5rem;
+}
+
+
+@media screen and (max-width : 500px) {
+    .tweet-input {
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width : 360px) {
+
+    .tweet-input {
+        margin: 0rem;
+    }
+}
+

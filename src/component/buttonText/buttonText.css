@@ -1,0 +1,19 @@
+.button-text {
+
+    height: 36px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-text p{
+    margin-top: 0.5rem ;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex: 1;
+    color: var(--dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+
+}

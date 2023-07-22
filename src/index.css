@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --font-family: 'VT323', monospace;
+  --background :var(--gray)
+
+  --light: #fff;
+  --light-gray :#E1E1E1;
+  --gray:#B8B8B8;
+  --dark-gray: #797979;
+  --dark : #000;
+}

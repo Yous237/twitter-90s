@@ -1,0 +1,13 @@
+.trends {
+    padding: 0rem 1rem;
+    
+}
+
+
+.trends h1 {
+    color: var(--dark);
+    /* VT323 Font/L */
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 400;
+}
