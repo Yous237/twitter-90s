@@ -4,7 +4,7 @@ import './buttonText.css'
 
 const ButtonText = ({text}) => {
   return (
-    <div className="button-text border">
+    <div className="button-text border enfoncer">
         <p>{text}</p>
     </div>
   )

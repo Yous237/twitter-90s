@@ -13,6 +13,11 @@
   border-right: 3px solid var(--dark);
 }
 
+.enfoncer:hover {
+  border-width: 3px; /* Augmentez la largeur de la bordure pour l'effet d'enfoncement */
+  border-color: #999; /* Changez la couleur de la bordure pour donner l'effet d'enfoncement */
+}
+
 body {
   background-color: var(--gray);
   padding: 0rem 2rem;
@@ -54,7 +59,9 @@ body {
 }
 
 
-@media screen and (max-width : 500px) {
+
+@media screen and (max-width : 650px) {
+
 
   body {
     padding: 0rem 0rem;
@@ -79,9 +86,7 @@ body {
 
   .footer {
       flex: 1;
-      display: block;
-      border: 2px solid black;
+      display: flex;
       
-
   }
 }
