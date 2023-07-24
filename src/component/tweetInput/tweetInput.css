@@ -95,6 +95,8 @@
 @media screen and (max-width : 500px) {
     .tweet-input {
         margin: 0.5rem;
+        margin-top: 5rem;
+        
     }
 }
 

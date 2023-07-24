@@ -16,7 +16,7 @@ const Side = () => {
   return (
     <div className="side ">
         <div className='side__links '>
-          <div className='side__links-link border'>
+          <div className='side__links-link border-is-active'>
             <img src={home} alt="" />
             <a href="">Home</a>
           </div>

@@ -14,8 +14,18 @@ const Feed = () => {
           <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
           <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
           <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-          {/* <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  /> */}
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
         </div>
     </div>
   )

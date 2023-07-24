@@ -56,9 +56,16 @@ ul, ol {
 }
 
 .side__profile-card {
+    flex: 1;
     display: flex;
-    margin-top: 5rem;
-    padding: 5px;
+    /* margin-top: 5rem;
+    padding: 5px; */
+    position: fixed;
+    width: 22%;
+    bottom: 0;    
+    margin-bottom: 1rem;
+    
+  
 }
 .side__profile-card__picture {
     flex: 1;
@@ -90,6 +97,14 @@ ul, ol {
 
 .side__profile-card__button {
     margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+@media screen and (max-width: 850px) {
+    .side__profile-card {
+        width: 29%;
+    }
 }
 
 

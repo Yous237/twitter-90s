@@ -13,6 +13,10 @@
   border-right: 3px solid var(--dark);
 }
 
+.border-is-active {
+  border: 3px solid #7d7b7b;
+}
+
 .enfoncer:hover {
   border-width: 3px; /* Augmentez la largeur de la bordure pour l'effet d'enfoncement */
   border-color: #999; /* Changez la couleur de la bordure pour donner l'effet d'enfoncement */
@@ -21,6 +25,7 @@
 body {
   background-color: var(--gray);
   padding: 0rem 2rem;
+  overflow: hidden;
 }
 
 .heading {
@@ -66,6 +71,7 @@ body {
   body {
     padding: 0rem 0rem;
     margin: 0rem 0rem;
+    overflow: visible;
   }
 
   .container {
@@ -87,6 +93,23 @@ body {
   .footer {
       flex: 1;
       display: flex;
-      
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px; /* Set the desired height for the footer */
+      background-color: var(--gray);
   }
+
+  .heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px; /* Set the desired height for the footer */
+    
+  }
+
+
+  
 }

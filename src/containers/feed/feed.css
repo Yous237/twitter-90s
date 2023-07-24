@@ -1,3 +1,10 @@
 .feed {
+    overflow: auto;
+    height: 1200px;
+    scrollbar-width: thin; 
+    -ms-overflow-style: none;
     
 }
+.feed::-webkit-scrollbar {
+    width: 6px;
+  }

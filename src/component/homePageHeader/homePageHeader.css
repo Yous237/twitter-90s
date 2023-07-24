@@ -62,6 +62,10 @@
         display: none;
     }
 
+    .header__home-middle-button {
+        padding-right: 10px;
+    }
+
     .header__home-middle h1 {
         color: var(--gray);
     }
