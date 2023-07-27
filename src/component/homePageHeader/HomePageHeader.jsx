@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 import logo from '../../assets/icons/logo.png'
 import discover from '../../assets/icons/discover.svg'
@@ -11,13 +11,30 @@ import SearchInput from '../search/SearchInput'
 import Pfp from '../pfp/Pfp'
 
 
+
 const HomePageHeader = () => {
+
+
+
   return (
     <div className="header__home">
         <div className="header__home-left">
             <img src={logo} alt="" />
             <div className="header__home-left__profile-picture">
-                <Pfp imageUrl={profile}/>
+                {mobileMenu ? (
+                    <div onClick={handleMobileMenuClose}>
+                    <Pfp imageUrl={profile} />
+                    </div>
+                ) : (
+                    <div onClick={handleMobileMenuOpen}>
+                    <Pfp imageUrl={profile} />
+                    </div>
+                )}
+                {mobileMenu && (
+                    <div className="">
+                        <h1>fionfonfionf</h1>
+                    </div>
+                )}
             </div>
         </div>
         <div className="header__home-middle">

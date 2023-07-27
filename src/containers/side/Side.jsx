@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 import './side.css'
 
@@ -9,12 +9,18 @@ import bell from '../../assets/icons/bell.svg'
 import bookmark from '../../assets/icons/bookmark.svg'
 import option from '../../assets/icons/option.svg'
 import pfp from '../../assets/icons/profile.jpg'
+import check from '../../assets/icons/check.svg'
 
-import {Button, Pfp } from '../../component'
+import {Button, Pfp, SearchInput } from '../../component'
 
 const Side = () => {
+  const [toggleOption, setToggleOption] = useState(false)
+
   return (
     <div className="side ">
+        <div className="side__search">
+          <SearchInput/>
+        </div>
         <div className='side__links '>
           <div className='side__links-link border-is-active'>
             <img src={home} alt="" />
@@ -40,7 +46,8 @@ const Side = () => {
         <div className="side__tweet-button border enfoncer">
           <a href="#">Tweet</a>
         </div>
-        <div className="side__profile-card border">
+        <div className="side__profile border">
+          <div className="side__profile-card">
           <div className="side__profile-card__picture">
             <Pfp imageUrl={pfp}/>
           </div>  
@@ -49,9 +56,24 @@ const Side = () => {
             <p>@yousuf</p>
           </div>
           <div className="side__profile-card__button">
-            <Button imageUrl={option}/>
+            {toggleOption
+
+            // ? <button onClick={() => setToggleMenu(false)}>jdj</button>
+            // : <button onClick={() => setToggleMenu(true)}>dd</button>
+            ?<div onClick={() => setToggleOption(false)}><Button imageUrl={check}/></div> 
+            :<div onClick={() => setToggleOption(true)}><Button imageUrl={option}/></div>
+            }
+            
+            
           </div>
+          
         </div>
+        {toggleOption && (
+            <div className="side__profile-card-log-out">
+              <p>@erendmrv log out of account</p>
+            </div>
+        )}
+      </div>
     </div>
   )
 }

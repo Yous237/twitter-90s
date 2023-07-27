@@ -2,3 +2,89 @@
     background-color: var(--gray);
     border-bottom: 2px solid black;
 }
+
+.header__home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__home-left {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.header__home-left img { 
+    height: 36px;
+    width: 36px;
+}
+
+.header__home-left__profile-picture {
+    display: none;
+}
+
+.header__home-left__profile-picture img {
+    display: none;
+}
+
+.header__home-middle {
+    flex: 1.8;
+    display: flex;
+    
+}
+
+
+
+.header__home-middle h1 {
+    flex: 1;
+    color: var(--dark);
+    /* VT323 Font/M */
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.header__home-middle-button {
+    padding-right: 1.5rem;
+    margin-top: 0.5rem;
+    
+}
+
+.header__home-right {
+    flex: 1;
+    padding-top: 0.5rem;
+    
+}
+
+@media screen and (max-width : 834px){
+    .header__home-right {
+        display: none;
+    }
+}
+
+@media screen and  (max-width : 500px){
+    .header__home-left img{
+        display: none;
+    }
+
+    .header__home-middle-button {
+        padding-right: 10px;
+    }
+
+    .header__home-middle h1 {
+        color: var(--gray);
+    }
+
+    .header__home-left__profile-picture {
+        margin-left: 0.5rem;
+    }
+
+    .header__home-left__profile-picture {
+        display: block;
+    }
+
+    .header__home-left__profile-picture img{
+        display: block;
+    }
+}
+

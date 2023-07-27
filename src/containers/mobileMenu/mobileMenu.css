@@ -1,0 +1,124 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%; 
+    background-color: var(--gray);
+   
+    padding: 20px;
+    z-index: 999; 
+    display: flex;
+    flex-direction: column;
+        
+      
+      
+}
+
+.mobile-menu__heading {
+    flex: 1;
+    display: flex;
+    
+}
+
+.mobile-menu p {
+    flex: 1;
+
+
+    /* VT323 Font/XS */
+    font-family: var(--font-family);
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.mobile-menu__heading-button {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-menu__profile-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu__profile-card__pfp {
+    flex: 1;
+}
+
+.mobile-menu__profile-card__names {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu__profile-card__names p:nth-child(1) {
+    color: var(--dark);
+    margin: 0rem;
+    /* VT323 Font/M */
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.mobile-menu__profile-card__names p:nth-child(2){
+    color: var(--dark-gray, #797979);
+    margin: 0rem;
+    /* VT323 Font/XS */ 
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mobile-menu__profile-card__fll {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-menu__profile-card__fll-following {
+    display: flex;
+    
+}
+
+.mobile-menu__profile-card__fll-following p:nth-child(1) {
+    color: var(--dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 2px;
+}
+
+.mobile-menu__profile-card__fll-following p:nth-child(2) {
+    color: var(--dark-gray);
+
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.mobile-menu__profile-card__fll-followers {
+    display: flex;
+    
+}
+
+.mobile-menu__profile-card__fll-followers p:nth-child(1) {
+    color: var(--dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 2px;
+}
+
+.mobile-menu__profile-card__fll-followers p:nth-child(2) {
+    color: var(--dark-gray);
+
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+

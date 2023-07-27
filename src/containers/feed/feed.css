@@ -3,8 +3,16 @@
     height: 1200px;
     scrollbar-width: thin; 
     -ms-overflow-style: none;
-    
 }
 .feed::-webkit-scrollbar {
     width: 6px;
   }
+
+
+
+@media screen and (max-width:500px) {
+    .feed {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}
