@@ -4,16 +4,26 @@
     margin-bottom: 1rem;
 }
 
+.tweet-post__profile-picture {
+    margin-top: 15px;
+}
+
 .tweet-post__right {
     flex: 1;
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
+    
 }
 
 .tweet-post__right-names {
     flex: 1;
     display: flex;
+    margin-left: 10px;
+}
+
+.tweet-post__right-names p {
+    margin-bottom: 0rem;
 }
 
 .tweet-post__right-names p:nth-child(1){
@@ -36,6 +46,11 @@
 
 .tweet-post__right-body {
     flex: 1;
+    display: flex;
+    width: 100%;
+    margin: 10px 10px;
+    
+   
 }
 
 .tweet-post__right-body p{
@@ -44,10 +59,15 @@
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 400;
+    
+    word-wrap: break-word;
+    
 }
 
 .tweet-post__right-buttons {
     flex: 1;
+    margin-right: 3rem;
+    margin-left: 10px;
 }
 
 .tweet-post__right-buttons {
@@ -58,7 +78,30 @@
 
 @media screen and (max-width : 500px) {
     .tweet-post {
-        margin: 0.5rem;
+        
+    }
+
+    .tweet-post {
+        
+    }
+
+    .tweet-post__right{
+        
+        overflow: hidden;
+    }
+
+    .tweet-post__right-names{
+        margin: 0rem 0rem;
+    }
+    
+
+    .tweet-post__right-body {
+        margin-left: 0rem;
+        
+    }
+
+    .tweet-post__right-buttons {
+        margin: 0rem 0rem;
     }
 }
 
@@ -66,5 +109,15 @@
 
     .tweet-post {
         margin: 0rem;
+    }
+
+    .tweet-post__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tweet-post__right-body {
+        margin-left: 0rem;
+        
     }
 }

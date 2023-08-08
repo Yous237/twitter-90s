@@ -16,15 +16,12 @@
 }
 
 .mobile-menu__heading {
-    flex: 1;
     display: flex;
     
 }
 
-.mobile-menu p {
+.mobile-menu__heading p {
     flex: 1;
-
-
     /* VT323 Font/XS */
     font-family: var(--font-family);
     font-size: 16px;
@@ -40,6 +37,7 @@
 }
 
 .mobile-menu__profile-card {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -122,3 +120,38 @@
 }
 
 
+.mobile-menu__links {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu__links__link {
+    flex: 1;
+    display: flex;
+
+}
+
+.mobile-menu__links__link-icon {
+    flex: 1;
+    margin-top: 10px;
+}
+
+.mobile-menu__links__link p {
+    flex: 4;
+    margin-bottom: 1rem; 
+    
+    font-family: var(--font-family);
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.mobile-menu__log-out p{
+    flex: 1;
+    color: #000;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}

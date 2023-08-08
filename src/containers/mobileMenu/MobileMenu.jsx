@@ -16,16 +16,18 @@ import bookmark from '../../assets/icons/bookmark.svg'
 
 
 const MobileMenu = ({ mobileMenu, onMobileMenuToggle }) => {
+
   return (
-    <div className="mobile-menu border">
+    <div id='mobile-menu' className="mobile-menu border slide-in-left">
       
         <div className="mobile-menu__heading">
           <p>Account Info</p>
+
           <div className="mobile-menu__heading-button" onClick={onMobileMenuToggle}>
             <Button imageUrl={close}/>
           </div>
         </div>
-        <div className="mobile-menu__profile-card">
+        <div className="mobile-menu__profile-card" >
           <div className="mobile-menu__profile-card__pfp">
             <Pfp imageUrl={pfp}/>
           </div>
@@ -45,32 +47,32 @@ const MobileMenu = ({ mobileMenu, onMobileMenuToggle }) => {
           </div>
         </div>
         <div className="mobile-menu__links">
-          <div className="mobile-menu__link">
-            <div className="mobile-menu__link-icon">
+          <div className="mobile-menu__links__link">
+            <div className="mobile-menu__links__link-icon">
               <Button imageUrl={home}/>
             </div>
             <p>Home</p>
           </div>
-          <div className="mobile-menu__link">
-            <div className="mobile-menu__link-icon">
+          <div className="mobile-menu__links__link">
+            <div className="mobile-menu__links__link-icon">
               <Button imageUrl={search}/>
             </div>
             <p>Search</p>
           </div>
-          <div className="mobile-menu__link">
-            <div className="mobile-menu__link-icon">
+          <div className="mobile-menu__links__link">
+            <div className="mobile-menu__links__link-icon">
               <Button imageUrl={profile}/>
             </div>
             <p>Profile</p>
           </div>
-          <div className="mobile-menu__link">
-            <div className="mobile-menu__link-icon">
+          <div className="mobile-menu__links__link">
+            <div className="mobile-menu__links__link-icon">
               <Button imageUrl={bell}/>
             </div>
             <p>Notification</p>
           </div>
-          <div className="mobile-menu__link">
-            <div className="mobile-menu__link-icon">
+          <div className="mobile-menu__links__link">
+            <div className="mobile-menu__links__link-icon">
               <Button imageUrl={bookmark}/>
             </div>
             <p>Bookmark</p>

@@ -15,7 +15,7 @@ const Feed = () => {
         <div className="feed__tweets">
           
           
-          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+          <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter fidsuiubfdiusbfibsdubvusudsbfusbvudvirusbiubviucvbsubfusbu s ufsuudsbufb subfubub ubusuvbrubs usfsubf dufbus fudsfubsd fud fufudsbfuebsuf sfufdubf sef bsubf sufuebf"  />
           <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
           <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
           <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />

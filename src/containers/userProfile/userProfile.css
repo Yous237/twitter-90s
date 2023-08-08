@@ -1,0 +1,154 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0rem;
+}
+
+.profile__padding {
+    
+}
+
+.profile__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+    border-bottom: none;
+    padding-bottom: 0rem;
+    /* padding-bottom: 3rem;
+    padding: 1rem; */
+}
+
+.profile__top{
+    flex: 1;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    height:100%;
+
+}
+
+.profile__top__image {
+    flex: 1;
+   
+}
+
+.profile__top__button {
+    
+    
+}
+
+.profile__middle {
+    flex: 1;
+}
+
+.profile__middle__names {
+    flex: 1;
+}
+
+.profile__middle__names h1 {
+    color: var(--dark);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0rem;
+}
+
+.profile__middle__names p {
+    color: var(--dark-gray);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0rem;
+}
+
+.profile__middle__bio {
+    flex: 1;
+}
+
+.profile__middle__bio p {
+    color: var(--dark, #000);
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.profile__middle__tags {
+    display: flex;
+    gap: 1rem;
+
+}
+
+
+
+
+
+.profile__middle__fll {
+    display: flex;
+    gap: 2rem;
+}
+
+.profile__middle__fll-following {
+    display: flex;
+    
+}
+
+.profile__middle__fll-following p:nth-child(1) {
+    color: var(--dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 2px;
+}
+
+.profile__middle__fll-following p:nth-child(2) {
+    color: var(--dark-gray);
+
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.profile__middle__fll-followers {
+    display: flex;
+    
+}
+
+.profile__middle__fll-followers p:nth-child(1) {
+    color: var(--dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 2px;
+}
+
+.profile__middle__fll-followers p:nth-child(2) {
+    color: var(--dark-gray);
+
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
+.profile__bottom {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.profile__bottom .button-text {
+    flex: 1;
+    white-space: nowrap;
+}
+
+.profile__tweets {
+    margin-top: 1rem;
+}
+
+
+
+

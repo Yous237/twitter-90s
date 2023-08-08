@@ -61,22 +61,28 @@ ul, ol {
 }
 
 .side__profile {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 5rem;
-    padding: 5px; */
+    
+    padding: 0.5rem;
+   
     position: fixed;
     width: 22%;
-    bottom: 0;    
-    margin-bottom: 1rem;
+    bottom: 2%; 
+
+    /* display: flex;
+    flex-direction: column;
+
+       
+    margin-bottom: 1rem; */
     
   
 }
 
+
+
 .side__profile-card-log-out {
     border-top: 1px solid var(--dark-gray);
-    margin: 0rem 1rem;
+    margin: 1rem 1rem;
+    
 }
 
 .side__profile-card-log-out p {
@@ -85,11 +91,14 @@ ul, ol {
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 0rem;
 }
 
 .side__profile-card {
+    
     display: flex;
-    padding : 5px;
+    justify-content: space-between;
+   
 }
 
 .side__profile-card__picture {

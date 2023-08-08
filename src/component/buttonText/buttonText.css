@@ -1,9 +1,10 @@
 .button-text {
-
+    display: inline-block;
     height: 36px;
     display: flex;
     text-align: center;
     cursor: pointer;
+
 }
 
 .button-text p{
