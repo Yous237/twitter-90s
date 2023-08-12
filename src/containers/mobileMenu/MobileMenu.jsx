@@ -10,6 +10,7 @@ import search from '../../assets/icons/search.svg'
 import profile from '../../assets/icons/profile.svg'
 import bell from '../../assets/icons/bell.svg'
 import bookmark from '../../assets/icons/bookmark.svg'
+import more from '../../assets/icons/more.svg'
 
 
 
@@ -77,12 +78,12 @@ const MobileMenu = ({ mobileMenu, onMobileMenuToggle }) => {
             </div>
             <p>Bookmark</p>
           </div>
-          {/* <div className="mobile-menu__link">
-            <div className="mobile-menu__link-icon">
-              <Button imageUrl={}/>
+          <div className="mobile-menu__links__link">
+            <div className="mobile-menu__links__link-icon">
+              <Button imageUrl={more}/>
             </div>
-            <p></p>
-          </div> */}
+            <p>Option</p>
+          </div>
         </div>
         <div className="mobile-menu__log-out">
           <p>Log out</p>

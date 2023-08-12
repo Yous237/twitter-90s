@@ -1,6 +1,9 @@
 .side{
     display: flex;
     flex-direction: column;
+    
+    
+
 }
 
 .side__search {
@@ -63,9 +66,9 @@ ul, ol {
 .side__profile {
     
     padding: 0.5rem;
-   
+    margin-right: 3rem;
     position: fixed;
-    width: 22%;
+    
     bottom: 2%; 
 
     /* display: flex;

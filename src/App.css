@@ -15,35 +15,44 @@
 }
 
 .border-is-active {
-
-  border: 3px solid #999;
+  border-top: 3px solid var(--dark);
+  border-bottom: 2px solid var(--light-gray);
+  border-left: 3px solid var(--dark);
+  border-right:2px solid var(--light-gray);
+  background-color: var(--light-gray);
 }
 
 .enfoncer:hover {
-  border-width: 3px; /* Augmentez la largeur de la bordure pour l'effet d'enfoncement */
-  border-color: #999; /* Changez la couleur de la bordure pour donner l'effet d'enfoncement */
+  border-top: 3px solid var(--dark);
+  border-bottom: 2px solid var(--light-gray);
+  border-left: 3px solid var(--dark);
+  border-right:2px solid var(--light-gray);
+  background-color: var(--light-gray);
 }
 
 body {
   background-color: var(--gray);
   padding: 0rem 2rem;
-  overflow: hidden;
+  
 }
 
 .heading {
   padding-bottom: 1rem;
-  /* position: fixed;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
   padding: 0rem 2rem;
-   */
+  
   
 }
 
 .container {
+  margin-top: 5rem;
   display: flex;
   flex-direction: row;
+  height: 100%;
+  width: 100%;
 }
 
 .footer {
@@ -52,14 +61,20 @@ body {
 
 .side {
   flex: 1;
+  position: sticky;
+  top: 10%;
+  height: 100vh; /* Set sidebar height to the full viewport height */
+  overflow-y: auto;
+   /* Stick to the top */
+  
 }
 
-.feed, .profile {
+.feed, .profile, .explore {
   flex: 2;
   margin: 0rem 1rem;
 
   overflow: auto;
-    height: 1800px;
+    /* height: 1800px; */
     scrollbar-width: thin; 
     -ms-overflow-style: none;
 }
@@ -69,8 +84,11 @@ body {
 }
 
 .trends {
+  overflow-y: auto;
   flex: 1;
   display: block;
+  position: sticky;
+  top: 10%; /* Stick to the top */
 }
 
 .slide-in-left {
@@ -149,6 +167,7 @@ body {
 
   .container {
       flex-direction: column  ;
+      margin-top: 0rem;
   }
 
   .trends {
@@ -179,6 +198,7 @@ body {
   }
 
   .heading {
+    padding: 0rem 0rem;
     position: fixed;
     top: 0;
     left: 0;

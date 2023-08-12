@@ -1,0 +1,46 @@
+.exploreHeader {
+    display: flex;
+    background-color: var(--gray);
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    padding: 10px 0rem;
+    margin-bottom: 1rem;
+}
+
+.exploreHeader-left {
+    flex: 1;
+}
+
+.exploreHeader-middle {
+    flex: 2;
+    margin: 0rem 1rem;
+    
+}
+
+.exploreHeader-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.exploreHeader-left__profile-picture {
+    display: none;
+}
+
+@media screen and  (max-width : 500px){
+
+
+    .exploreHeader-left img{
+        display: none;
+    }
+
+    .exploreHeader-left__profile-picture {
+        display: block;
+    }
+
+    .exploreHeader-left__profile-picture img{
+        display: block;
+    }
+
+}

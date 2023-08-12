@@ -1,0 +1,5 @@
+onClick={handleClick(5)}
+onClick={handleClick(4)}
+onClick={handleClick(3)}
+onClick={handleClick(2)}
+onClick={handleClick(1)}

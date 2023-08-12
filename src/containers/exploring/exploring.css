@@ -1,0 +1,72 @@
+.explore {
+    
+}
+
+.explore__trends {
+    padding: 1rem;
+    display: none;
+}
+
+.explore__query {
+
+}
+
+.explore__query-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.explore__query-buttons-button {
+    cursor: pointer;
+}
+
+.explore__query-buttons-button p{
+    margin: 5px 1rem;
+    font-size: 32px;
+    font-weight: 400;
+}
+@media screen and (max-width : 500px) {
+    .explore__trends {
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+    }
+
+    .explore__query-buttons-button p {
+        font-size: 24px;
+    }
+
+    .explore__query-buttons {
+        padding-top: 4rem;
+        margin: 1rem 0rem;
+    }
+
+    .explore__query-tweets {
+        margin-bottom: 4rem;
+    }
+}
+@media screen and (max-width : 350px) {
+    .explore__trends {
+
+
+    }
+
+    .explore__query-tweets .tweet-post {
+        margin-bottom: 1rem;
+    }
+
+    .explore__query-buttons-button p {
+        font-size: 16px;
+    }
+
+    .explore__query-buttons {
+
+
+    }
+
+    .explore__query-tweets {
+
+    }
+}

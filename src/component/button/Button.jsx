@@ -2,10 +2,10 @@ import React from 'react'
 
 import './button.css'
 
-const Button = ({imageUrl}) => {
+const Button = ({imageUrl, onClick}) => {
   return (
     <div className="button border enfoncer">
-        <img src={imageUrl} alt="" />
+        <img src={imageUrl} onClick={onClick} alt="" />
     </div>
   )
 }

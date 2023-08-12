@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import './header.css'
 
 import logo from '../../assets/icons/logo.png'
-import discover from '../../assets/icons/discover.svg'
+import start from '../../assets/icons/start.svg'
 
 
 import profile from '../../assets/icons/profile.jpg'
@@ -32,7 +32,7 @@ const Header = ({ mobileMenu, onMobileMenuToggle }) => {
         <div className="header__home-middle">
             <h1>Homepage</h1>
             <div className="header__home-middle-button">
-                <Button imageUrl={discover}/>
+                <Button imageUrl={start}/>
             </div>
             
         </div>
