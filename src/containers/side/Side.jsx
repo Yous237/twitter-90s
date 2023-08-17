@@ -58,6 +58,7 @@ const Side = () => {
         <div className="side__tweet-button border enfoncer">
           <a href="#">Tweet</a>
         </div>
+        
         <div className="side__profile border">
           <div className="side__profile-card">
           <div className="side__profile-card__picture">
@@ -82,7 +83,7 @@ const Side = () => {
               <p>@erendmrv log out of account</p>
             </div>
         )}
-      </div>
+        </div>
     </div>
   )
 }

@@ -33,6 +33,7 @@
 body {
   background-color: var(--gray);
   padding: 0rem 2rem;
+  overflow: hidden;
   
 }
 
@@ -61,22 +62,24 @@ body {
 
 .side {
   flex: 1;
-  position: sticky;
-  top: 10%;
-  height: 100vh; /* Set sidebar height to the full viewport height */
-  overflow-y: auto;
-   /* Stick to the top */
+  /* position: sticky; */
+  top: 0%;
+  height: 100vh; 
+
+
   
 }
 
-.feed, .profile, .explore {
+.feed, .profile, .explore, .thread {
   flex: 2;
   margin: 0rem 1rem;
 
   overflow: auto;
-    /* height: 1800px; */
+    height: 100vh;
     scrollbar-width: thin; 
     -ms-overflow-style: none;
+
+
 }
 
 .profile {
@@ -165,6 +168,10 @@ body {
     overflow: visible;
   }
 
+  .feed, .profile, .explore, .thread {
+    margin-top: 4rem;
+    margin-bottom: 3rem;  
+  }
   .container {
       flex-direction: column  ;
       margin-top: 0rem;

@@ -1,11 +1,11 @@
 .tweet-post {
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 8px 1rem;
     margin-bottom: 1rem;
 }
 
 .tweet-post__profile-picture {
-    margin-top: 15px;
+    
 }
 
 .tweet-post__right {
@@ -19,7 +19,7 @@
 .tweet-post__right-names {
     flex: 1;
     display: flex;
-    margin-left: 10px;
+    
 }
 
 .tweet-post__right-names p {
@@ -48,7 +48,7 @@
     flex: 1;
     display: flex;
     width: 100%;
-    margin: 10px 10px;
+    margin: 12px 0px;
     
    
 }
@@ -67,7 +67,7 @@
 .tweet-post__right-buttons {
     flex: 1;
     margin-right: 3rem;
-    margin-left: 10px;
+    gap: 24px;
 }
 
 .tweet-post__right-buttons {

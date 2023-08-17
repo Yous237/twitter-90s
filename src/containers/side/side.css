@@ -1,14 +1,15 @@
 .side{
     display: flex;
     flex-direction: column;
-    
-    
-
 }
 
 .side__search {
     margin-bottom: 1rem;
     display: none;
+}
+
+.side__links {
+    /* flex: 1; */
 }
 
 .side__links-link {
@@ -42,9 +43,11 @@ ul, ol {
 }
 
 .side__tweet-button {
+    /* flex: 1; */
     display: flex;
     justify-content: space-around;
     padding: 0.5rem;
+ 
 }
 
 
@@ -64,18 +67,15 @@ ul, ol {
 }
 
 .side__profile {
-    
-    padding: 0.5rem;
-    margin-right: 3rem;
-    position: fixed;
-    
-    bottom: 2%; 
 
-    /* display: flex;
+    padding: 0.5rem;
+    height: 64px !important;
+    margin-top: 5rem;
+    display: flex;
     flex-direction: column;
 
        
-    margin-bottom: 1rem; */
+
     
   
 }

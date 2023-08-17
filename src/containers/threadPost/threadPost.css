@@ -1,0 +1,93 @@
+.thread {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thread__post {
+    /* flex: 1; */
+
+    padding: 1rem;
+}
+
+.thread__post-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thread__post-top__pfp {
+    padding-right: 10px;
+}
+
+.thread__post-top__names{
+    flex: 2;
+    margin-top: 7px;
+}
+
+.thread__post-top__names h4 {
+    margin: 0rem;
+
+}
+
+.thread__post-top__names p{
+    color: var(--dark-gray);
+}   
+
+.thread__post-top__button {
+    margin-top: 5px;
+}
+
+.thread__post-body {
+    margin-top: 1rem;
+}
+
+.thread__post-body__date {
+    color: var(--dark-gray);
+
+}
+
+.thread__post-buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.thread__input {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+
+}
+
+.thread__input-pfp {
+    padding-right: 5px;
+}
+
+.thread__input-input {
+    flex: 2;
+}
+
+.thread__input-input textarea {
+    font-family: var(--font-family);
+    font-size: 20px;
+    width: 100%;
+
+    margin-top: 10px;
+    background-color: var(--gray);
+    border: none;
+    resize: none; /* Disable textarea resizing */
+    overflow: auto; /* Hide the scrollbar */
+ 
+}
+
+.thread__input-input textarea:focus {
+    outline: none;
+}
+
+
+
+.thread__comments{
+    flex: 1;
+}

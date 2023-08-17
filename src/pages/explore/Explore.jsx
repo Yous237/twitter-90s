@@ -49,9 +49,7 @@ const Explore = () => {
       </div>
     </div>
 )
-  return (
-    <div className="explore"></div>
-  )
+
 }
 
 export default Explore

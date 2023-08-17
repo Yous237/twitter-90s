@@ -14,7 +14,6 @@ const Trends = () => {
         <Trend topic='Music' title='Mettalica' nbTweet={176}/>
         <Trend topic="Series" title="Dawson's Creek" nbTweet={2}/>
         <Trend topic='Education' title='Cambridge University' nbTweet={82.2}/>
-        
     </div>
   )
 }

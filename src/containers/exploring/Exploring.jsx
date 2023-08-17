@@ -4,7 +4,7 @@ import './exploring.css'
 
 import profile from '../../assets/icons/profile.jpg'
 
-import {Trend,ButtonText,TweetPost} from '../../component'
+import {Trend,ButtonText,TweetPost, People} from '../../component'
 
 const Exploring = () => {
     const [tab,setTab] = useState(1)
@@ -48,6 +48,48 @@ const Exploring = () => {
                     <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
                     <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
                     <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="top"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="top"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="top"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
                 </div>
                 }
                 {tab === 2 &&
@@ -70,20 +112,16 @@ const Exploring = () => {
                 }
                 {tab === 3 &&
                 <div className="explore__query-people">
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="people"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
-                    <TweetPost imageUrl={profile} name="Yous237" username="yousuf" body="Hello Twitter"  />
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    <People username='Yous237' name='yousuf' imageUrl={profile} bio='Nothing much just making people component'/>
+                    
                 </div>
                 }
                 {tab === 4 &&
